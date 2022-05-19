@@ -11,7 +11,7 @@ pipeline{
                 echo "Test the code"
             }
         }
-        stage("Deploy"){
+        stage("Deploy Code"){
             steps {
                 echo "Deploy the code in web app"
             }
